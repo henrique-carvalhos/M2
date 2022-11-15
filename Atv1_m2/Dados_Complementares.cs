@@ -82,5 +82,59 @@ namespace Atv1_m2
         {
             this.CpfResponsavel = cpfResponsavel;
         }
+
+        public string getNumeroCertidao()
+        {
+            return this.NumeroCertidao;
+        }
+        public void setNumeroCertidao(string numeroCertidao)
+        {
+            this.NumeroCertidao = numeroCertidao;
+        }
+
+        public string getLivroCertidao()
+        {
+            return this.LivroCertidao;
+        }
+        public void setLivroCertidao(string livroCertidao)
+        {
+            this.LivroCertidao = livroCertidao;
+        }
+
+        public string getFolhaCertidao()
+        {
+            return this.FolhaCertidao;
+        }
+        public void setFolhaCertidao(string folhaCertidao)
+        {
+            this.FolhaCertidao = folhaCertidao;
+        }
+
+        public string getCartorioCertidao()
+        {
+            return this.CartorioCertidao;
+        }
+        public void setCartorioCertidao(string cartorioCertidao)
+        {
+            this.CartorioCertidao = cartorioCertidao;
+        }
+
+        public string getSeriePassaporteAnterior()
+        {
+            return this.SeriePassaporteAnterior;
+        }
+        public void setSeriePassaporteAnterior(string seriePassaporteAnterior)
+        {
+            this.SeriePassaporteAnterior = seriePassaporteAnterior;
+        }
+
+        public string getNumeroPassaporteAnterior()
+        {
+            return this.NumeroPassaporteAnterior;
+        }
+        public void setNumeroPassaporteAnterior(string numeroPassaporteAnterior)
+        {
+            this.NumeroPassaporteAnterior = numeroPassaporteAnterior;
+        }
     }
 }
