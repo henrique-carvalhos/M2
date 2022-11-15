@@ -26,7 +26,7 @@ namespace Atv1_m2
         //Pular para o próximo forms
         private void button1_Click(object sender, EventArgs e)
         {
-            DadosComplementares dadosComplementares = new DadosComplementares();
+            DadosComplementares dadosComplementares = new DadosComplementares() { MdiParent = MdiParent };
             dadosComplementares.Show();
             this.Close();
         }
@@ -40,7 +40,7 @@ namespace Atv1_m2
         //Voltar para o forms anterior
         private void button4_Click(object sender, EventArgs e)
         {
-            DadosPessoais dadosPessoais = new DadosPessoais();
+            DadosPessoais dadosPessoais = new DadosPessoais() { MdiParent = MdiParent };
             dadosPessoais.Show();
             this.Close();
         }

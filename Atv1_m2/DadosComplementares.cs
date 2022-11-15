@@ -26,7 +26,7 @@ namespace Atv1_m2
         //Pular para o próximo forms
         private void button1_Click(object sender, EventArgs e)
         {
-            RevisarDados revisarDados = new RevisarDados();
+            RevisarDados revisarDados = new RevisarDados() { MdiParent = MdiParent };
             revisarDados.Show();
             this.Close();
         }
@@ -40,7 +40,7 @@ namespace Atv1_m2
         //Voltar para o forms anterior
         private void button4_Click(object sender, EventArgs e)
         {
-            Documentos documentos = new Documentos();
+            Documentos documentos = new Documentos() { MdiParent = MdiParent };
             documentos.Show();
             this.Close();
         }

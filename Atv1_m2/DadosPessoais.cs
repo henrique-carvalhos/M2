@@ -27,7 +27,7 @@ namespace Atv1_m2
         //Pular para o próximo forms
         private void button1_Click(object sender, EventArgs e)
         {
-            Documentos documentos = new Documentos();
+            Documentos documentos = new Documentos() { MdiParent = MdiParent};
             documentos.Show();
             this.Close();
         }

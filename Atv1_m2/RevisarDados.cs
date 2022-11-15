@@ -16,5 +16,22 @@ namespace Atv1_m2
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DadosComplementares dadosComplementares = new DadosComplementares() { MdiParent = MdiParent };
+            dadosComplementares.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //.Clear();
+        }
     }
 }
