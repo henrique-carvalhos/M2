@@ -28,6 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -61,75 +71,214 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(446, 411);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(277, 28);
+            this.label22.TabIndex = 327;
+            this.label22.Text = "(Exemplo: Para o passaporte CP999999 a série é CP e o\r\n número é 999999.)";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(318, 408);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(108, 20);
+            this.textBox11.TabIndex = 326;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(255, 411);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(47, 14);
+            this.label20.TabIndex = 325;
+            this.label20.Text = "Número:";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(132, 408);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(65, 20);
+            this.textBox12.TabIndex = 324;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(12, 414);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(35, 14);
+            this.label21.TabIndex = 323;
+            this.label21.Text = "Série:";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "",
+            "AC",
+            "AL",
+            "AP",
+            "AM",
+            "BA",
+            "CE",
+            "DF",
+            "ES",
+            "GO",
+            "MA",
+            "MT",
+            "MS",
+            "MG",
+            "PA",
+            "PB",
+            "PR",
+            "PE",
+            "PI",
+            "RJ",
+            "RN",
+            "RS",
+            "RO",
+            "RR",
+            "SC",
+            "SP",
+            "SE",
+            "TO"});
+            this.comboBox4.Location = new System.Drawing.Point(132, 381);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(520, 21);
+            this.comboBox4.TabIndex = 322;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(12, 384);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(91, 14);
+            this.label19.TabIndex = 321;
+            this.label19.Text = "UF de expedição:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.label18.Location = new System.Drawing.Point(12, 344);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(132, 16);
+            this.label18.TabIndex = 320;
+            this.label18.Text = "Passaporte Anterior";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "",
+            "AC",
+            "AL",
+            "AP",
+            "AM",
+            "BA",
+            "CE",
+            "DF",
+            "ES",
+            "GO",
+            "MA",
+            "MT",
+            "MS",
+            "MG",
+            "PA",
+            "PB",
+            "PR",
+            "PE",
+            "PI",
+            "RJ",
+            "RN",
+            "RS",
+            "RO",
+            "RR",
+            "SC",
+            "SP",
+            "SE",
+            "TO"});
+            this.comboBox3.Location = new System.Drawing.Point(486, 286);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(294, 21);
+            this.comboBox3.TabIndex = 319;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(374, 289);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(96, 14);
+            this.label17.TabIndex = 318;
+            this.label17.Text = "Cidade expedição:";
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(486, 258);
+            this.textBox8.Location = new System.Drawing.Point(486, 260);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(294, 20);
-            this.textBox8.TabIndex = 274;
+            this.textBox8.TabIndex = 317;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(422, 261);
+            this.label16.Location = new System.Drawing.Point(422, 263);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(48, 14);
-            this.label16.TabIndex = 273;
+            this.label16.TabIndex = 316;
             this.label16.Text = "Cartório:";
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(672, 231);
+            this.textBox7.Location = new System.Drawing.Point(672, 233);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(108, 20);
-            this.textBox7.TabIndex = 272;
+            this.textBox7.TabIndex = 315;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(609, 234);
+            this.label8.Location = new System.Drawing.Point(609, 236);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(34, 14);
-            this.label8.TabIndex = 271;
+            this.label8.TabIndex = 314;
             this.label8.Text = "Livre:";
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(486, 231);
+            this.textBox6.Location = new System.Drawing.Point(486, 233);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(108, 20);
-            this.textBox6.TabIndex = 270;
+            this.textBox6.TabIndex = 313;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(423, 234);
+            this.label15.Location = new System.Drawing.Point(423, 236);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(47, 14);
-            this.label15.TabIndex = 269;
+            this.label15.TabIndex = 312;
             this.label15.Text = "Número:";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(132, 258);
+            this.textBox5.Location = new System.Drawing.Point(132, 260);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(244, 20);
-            this.textBox5.TabIndex = 268;
+            this.textBox5.TabIndex = 311;
             // 
             // comboBox2
             // 
@@ -163,29 +312,29 @@
             "SP",
             "SE",
             "TO"});
-            this.comboBox2.Location = new System.Drawing.Point(132, 284);
+            this.comboBox2.Location = new System.Drawing.Point(132, 286);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(122, 21);
-            this.comboBox2.TabIndex = 267;
+            this.comboBox2.TabIndex = 310;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(12, 287);
+            this.label12.Location = new System.Drawing.Point(12, 289);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(91, 14);
-            this.label12.TabIndex = 266;
+            this.label12.TabIndex = 309;
             this.label12.Text = "UF de expedição:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(12, 261);
+            this.label7.Location = new System.Drawing.Point(12, 263);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(36, 14);
-            this.label7.TabIndex = 265;
+            this.label7.TabIndex = 308;
             this.label7.Text = "Folha:";
             // 
             // label6
@@ -193,44 +342,44 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label6.Location = new System.Drawing.Point(12, 175);
+            this.label6.Location = new System.Drawing.Point(12, 177);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 16);
-            this.label6.TabIndex = 264;
+            this.label6.TabIndex = 307;
             this.label6.Text = "Certidão";
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(537, 141);
+            this.textBox9.Location = new System.Drawing.Point(537, 143);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(244, 20);
-            this.textBox9.TabIndex = 263;
+            this.textBox9.TabIndex = 306;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(424, 144);
+            this.label10.Location = new System.Drawing.Point(424, 146);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(107, 14);
-            this.label10.TabIndex = 262;
+            this.label10.TabIndex = 305;
             this.label10.Text = "CPF do responsável:";
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(133, 141);
+            this.textBox10.Location = new System.Drawing.Point(133, 143);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(244, 20);
-            this.textBox10.TabIndex = 261;
+            this.textBox10.TabIndex = 304;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(13, 144);
+            this.label11.Location = new System.Drawing.Point(13, 146);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(29, 14);
-            this.label11.TabIndex = 260;
+            this.label11.TabIndex = 303;
             this.label11.Text = "CPF:";
             // 
             // comboBox1
@@ -265,46 +414,46 @@
             "SP",
             "SE",
             "TO"});
-            this.comboBox1.Location = new System.Drawing.Point(658, 67);
+            this.comboBox1.Location = new System.Drawing.Point(658, 69);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(122, 21);
-            this.comboBox1.TabIndex = 259;
+            this.comboBox1.TabIndex = 302;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(561, 70);
+            this.label9.Location = new System.Drawing.Point(561, 72);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(91, 14);
-            this.label9.TabIndex = 258;
+            this.label9.TabIndex = 301;
             this.label9.Text = "UF de expedição:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(658, 42);
+            this.textBox1.Location = new System.Drawing.Point(658, 44);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(122, 20);
-            this.textBox1.TabIndex = 257;
+            this.textBox1.TabIndex = 300;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(562, 45);
+            this.label2.Location = new System.Drawing.Point(562, 47);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 14);
-            this.label2.TabIndex = 256;
+            this.label2.TabIndex = 299;
             this.label2.Text = "Data de emissão:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 234);
+            this.label5.Location = new System.Drawing.Point(12, 236);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(30, 14);
-            this.label5.TabIndex = 255;
+            this.label5.TabIndex = 298;
             this.label5.Text = "Tipo:";
             // 
             // button4
@@ -312,10 +461,10 @@
             this.button4.BackColor = System.Drawing.Color.DodgerBlue;
             this.button4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(492, 454);
+            this.button4.Location = new System.Drawing.Point(492, 456);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(71, 32);
-            this.button4.TabIndex = 254;
+            this.button4.TabIndex = 297;
             this.button4.Text = "ANTERIOR";
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -516,27 +665,27 @@
             "Vietnã",
             "Zâmbia",
             "Zimbábue"});
-            this.comboBox10.Location = new System.Drawing.Point(132, 231);
+            this.comboBox10.Location = new System.Drawing.Point(132, 233);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(244, 21);
-            this.comboBox10.TabIndex = 253;
+            this.comboBox10.TabIndex = 296;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(132, 205);
+            this.textBox4.Location = new System.Drawing.Point(132, 207);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(244, 20);
-            this.textBox4.TabIndex = 252;
+            this.textBox4.TabIndex = 295;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.DodgerBlue;
             this.button3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(723, 454);
+            this.button3.Location = new System.Drawing.Point(723, 456);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(71, 32);
-            this.button3.TabIndex = 251;
+            this.button3.TabIndex = 294;
             this.button3.Text = "FECHAR";
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -545,10 +694,10 @@
             this.button2.BackColor = System.Drawing.Color.DodgerBlue;
             this.button2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(646, 454);
+            this.button2.Location = new System.Drawing.Point(646, 456);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(71, 32);
-            this.button2.TabIndex = 250;
+            this.button2.TabIndex = 293;
             this.button2.Text = "LIMPAR";
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -557,10 +706,10 @@
             this.button1.BackColor = System.Drawing.Color.DodgerBlue;
             this.button1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(569, 454);
+            this.button1.Location = new System.Drawing.Point(569, 456);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(71, 32);
-            this.button1.TabIndex = 249;
+            this.button1.TabIndex = 292;
             this.button1.Text = "PRÓXIMO";
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -568,10 +717,10 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(12, 208);
+            this.label14.Location = new System.Drawing.Point(12, 210);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(53, 14);
-            this.label14.TabIndex = 248;
+            this.label14.TabIndex = 291;
             this.label14.Text = "Matrícula:";
             // 
             // label13
@@ -579,44 +728,44 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label13.Location = new System.Drawing.Point(12, 114);
+            this.label13.Location = new System.Drawing.Point(12, 116);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(33, 16);
-            this.label13.TabIndex = 247;
+            this.label13.TabIndex = 290;
             this.label13.Text = "CPF";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(132, 68);
+            this.textBox3.Location = new System.Drawing.Point(132, 70);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(407, 20);
-            this.textBox3.TabIndex = 246;
+            this.textBox3.TabIndex = 289;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(132, 42);
+            this.textBox2.Location = new System.Drawing.Point(132, 44);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(407, 20);
-            this.textBox2.TabIndex = 245;
+            this.textBox2.TabIndex = 288;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 71);
+            this.label4.Location = new System.Drawing.Point(12, 73);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 14);
-            this.label4.TabIndex = 244;
+            this.label4.TabIndex = 287;
             this.label4.Text = "Órgão emissor:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 45);
+            this.label3.Location = new System.Drawing.Point(12, 47);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 14);
-            this.label3.TabIndex = 243;
+            this.label3.TabIndex = 286;
             this.label3.Text = "Número:";
             // 
             // label1
@@ -624,160 +773,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(185, 16);
-            this.label1.TabIndex = 242;
+            this.label1.TabIndex = 285;
             this.label1.Text = "Documento de Identificação";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "",
-            "AC",
-            "AL",
-            "AP",
-            "AM",
-            "BA",
-            "CE",
-            "DF",
-            "ES",
-            "GO",
-            "MA",
-            "MT",
-            "MS",
-            "MG",
-            "PA",
-            "PB",
-            "PR",
-            "PE",
-            "PI",
-            "RJ",
-            "RN",
-            "RS",
-            "RO",
-            "RR",
-            "SC",
-            "SP",
-            "SE",
-            "TO"});
-            this.comboBox3.Location = new System.Drawing.Point(486, 284);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(294, 21);
-            this.comboBox3.TabIndex = 276;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(374, 287);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(96, 14);
-            this.label17.TabIndex = 275;
-            this.label17.Text = "Cidade expedição:";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label18.Location = new System.Drawing.Point(12, 342);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(132, 16);
-            this.label18.TabIndex = 277;
-            this.label18.Text = "Passaporte Anterior";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "",
-            "AC",
-            "AL",
-            "AP",
-            "AM",
-            "BA",
-            "CE",
-            "DF",
-            "ES",
-            "GO",
-            "MA",
-            "MT",
-            "MS",
-            "MG",
-            "PA",
-            "PB",
-            "PR",
-            "PE",
-            "PI",
-            "RJ",
-            "RN",
-            "RS",
-            "RO",
-            "RR",
-            "SC",
-            "SP",
-            "SE",
-            "TO"});
-            this.comboBox4.Location = new System.Drawing.Point(132, 379);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(520, 21);
-            this.comboBox4.TabIndex = 279;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(12, 382);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(91, 14);
-            this.label19.TabIndex = 278;
-            this.label19.Text = "UF de expedição:";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(318, 406);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(108, 20);
-            this.textBox11.TabIndex = 283;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(255, 409);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(47, 14);
-            this.label20.TabIndex = 282;
-            this.label20.Text = "Número:";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(132, 406);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(65, 20);
-            this.textBox12.TabIndex = 281;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(12, 412);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(35, 14);
-            this.label21.TabIndex = 280;
-            this.label21.Text = "Série:";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(446, 409);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(277, 28);
-            this.label22.TabIndex = 284;
-            this.label22.Text = "(Exemplo: Para o passaporte CP999999 a série é CP e o\r\n número é 999999.)";
             // 
             // Documentos
             // 
@@ -837,6 +837,16 @@
 
         #endregion
 
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox7;
@@ -870,15 +880,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
     }
 }

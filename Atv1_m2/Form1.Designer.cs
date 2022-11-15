@@ -58,6 +58,7 @@
             this.dadosPessoaisToolStripMenuItem.Name = "dadosPessoaisToolStripMenuItem";
             this.dadosPessoaisToolStripMenuItem.Size = new System.Drawing.Size(115, 21);
             this.dadosPessoaisToolStripMenuItem.Text = "Dados pessoais";
+            this.dadosPessoaisToolStripMenuItem.Click += new System.EventHandler(this.dadosPessoaisToolStripMenuItem_Click);
             // 
             // documentosToolStripMenuItem
             // 
