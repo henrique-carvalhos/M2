@@ -58,12 +58,15 @@
     <Compile Include="DadosPessoais.Designer.cs">
       <DependentUpon>DadosPessoais.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dados_Complementares.cs" />
+    <Compile Include="Dados_Pessoais.cs" />
     <Compile Include="Documentos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Documentos.Designer.cs">
       <DependentUpon>Documentos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Documentos_pessoais.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
