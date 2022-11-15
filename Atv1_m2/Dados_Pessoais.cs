@@ -10,6 +10,7 @@ namespace Atv1_m2
     {
         //Atributos
         private string Nome;
+        private string SexoNome;
         private string Filiacao1;
         private string Filiacao2;
         private DateTime DataNascimento;
@@ -31,9 +32,18 @@ namespace Atv1_m2
         {
             return this.Nome;
         }
-        public void setId(string nome)
+        public void setNome(string nome)
         {
             this.Nome = nome;
+        }
+
+        public string getSexoNome()
+        {
+            return this.SexoNome;
+        }
+        public void setSexoNome(string sexoNome)
+        {
+            this.SexoNome = sexoNome;
         }
 
         public string getFiliacao1()

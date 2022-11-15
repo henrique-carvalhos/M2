@@ -13,6 +13,8 @@ namespace Atv1_m2
 {
     public partial class DadosPessoais : Form
     {
+        Dados_Pessoais dadosPessoais = new Dados_Pessoais();
+
         public DadosPessoais()
         {
             InitializeComponent();
@@ -30,6 +32,10 @@ namespace Atv1_m2
             Documentos documentos = new Documentos() { MdiParent = MdiParent};
             documentos.Show();
             this.Close();
+
+            dadosPessoais.setNome(textBox1.Text);
+            dadosPessoais.setSexoNome(comboBox2.Text);
+
         }
 
         //Limpar os dados
