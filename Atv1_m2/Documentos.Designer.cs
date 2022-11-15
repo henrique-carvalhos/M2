@@ -467,6 +467,7 @@
             this.button4.TabIndex = 297;
             this.button4.Text = "ANTERIOR";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // comboBox10
             // 
@@ -688,6 +689,7 @@
             this.button3.TabIndex = 294;
             this.button3.Text = "FECHAR";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -700,6 +702,7 @@
             this.button2.TabIndex = 293;
             this.button2.Text = "LIMPAR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -712,6 +715,7 @@
             this.button1.TabIndex = 292;
             this.button1.Text = "PRÓXIMO";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label14
             // 
@@ -828,7 +832,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Documentos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Documentos";
             this.ResumeLayout(false);
             this.PerformLayout();

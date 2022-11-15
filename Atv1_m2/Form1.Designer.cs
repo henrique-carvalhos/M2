@@ -67,6 +67,7 @@
             this.documentosToolStripMenuItem.Name = "documentosToolStripMenuItem";
             this.documentosToolStripMenuItem.Size = new System.Drawing.Size(98, 21);
             this.documentosToolStripMenuItem.Text = "Documentos";
+            this.documentosToolStripMenuItem.Click += new System.EventHandler(this.documentosToolStripMenuItem_Click);
             // 
             // dadosComplementaresToolStripMenuItem
             // 
@@ -75,6 +76,7 @@
             this.dadosComplementaresToolStripMenuItem.Name = "dadosComplementaresToolStripMenuItem";
             this.dadosComplementaresToolStripMenuItem.Size = new System.Drawing.Size(165, 21);
             this.dadosComplementaresToolStripMenuItem.Text = "Dados complementares";
+            this.dadosComplementaresToolStripMenuItem.Click += new System.EventHandler(this.dadosComplementaresToolStripMenuItem_Click);
             // 
             // revisarDadosToolStripMenuItem
             // 
@@ -83,6 +85,7 @@
             this.revisarDadosToolStripMenuItem.Name = "revisarDadosToolStripMenuItem";
             this.revisarDadosToolStripMenuItem.Size = new System.Drawing.Size(105, 21);
             this.revisarDadosToolStripMenuItem.Text = "Revisar dados";
+            this.revisarDadosToolStripMenuItem.Click += new System.EventHandler(this.revisarDadosToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -90,8 +93,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(836, 684);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

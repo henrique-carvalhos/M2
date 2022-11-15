@@ -1394,6 +1394,7 @@
             this.button3.TabIndex = 60;
             this.button3.Text = "FECHAR";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -1406,6 +1407,7 @@
             this.button2.TabIndex = 59;
             this.button2.Text = "LIMPAR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -1418,6 +1420,7 @@
             this.button1.TabIndex = 58;
             this.button1.Text = "PRÓXIMO";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // DadosPessoais
             // 
@@ -1462,7 +1465,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DadosPessoais";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "DadosPessoais";
             this.ResumeLayout(false);
             this.PerformLayout();
