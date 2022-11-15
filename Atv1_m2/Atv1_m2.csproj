@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DadosComplementares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DadosComplementares.Designer.cs">
+      <DependentUpon>DadosComplementares.cs</DependentUpon>
+    </Compile>
     <Compile Include="DadosPessoais.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DadosComplementares.resx">
+      <DependentUpon>DadosComplementares.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DadosPessoais.resx">
       <DependentUpon>DadosPessoais.cs</DependentUpon>
     </EmbeddedResource>
